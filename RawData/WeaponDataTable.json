@@ -1,0 +1,865 @@
+[
+	{
+		"Name": "IronMace",
+		"ItemID": "IronMace",
+		"EquipmentBaseClass": "/Script/Engine.BlueprintGeneratedClass'/Game/BluePrint/Equipment/Dwarf/BP_Mace_Dwarf.BP_Mace_Dwarf_C'",
+		"WeaponType": "Mace",
+		"Power": 20,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 50,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2.2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": 5,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Evasion",
+				"AddModifier": -5,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "IronDagger",
+		"ItemID": "IronDagger",
+		"EquipmentBaseClass": "/Script/Engine.BlueprintGeneratedClass'/Game/BluePrint/Equipment/Dwarf/BP_IronDagger_Dwarf.BP_IronDagger_Dwarf_C'",
+		"WeaponType": "Dagger",
+		"Power": 8,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 5,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 20,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 1,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Evasion",
+				"AddModifier": 5,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "WoodBow",
+		"ItemID": "WoodBow",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Bow",
+		"Power": 12,
+		"StatModifiers": []
+	},
+	{
+		"Name": "Pickaxe",
+		"ItemID": "Pickaxe",
+		"EquipmentBaseClass": "/Script/Engine.BlueprintGeneratedClass'/Game/BluePrint/Equipment/Dwarf/BP_Pickaxe_Dwarf.BP_Pickaxe_Dwarf_C'",
+		"WeaponType": "Pickaxe",
+		"Power": 4,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 5,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 70,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Evasion",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "Hammer",
+		"ItemID": "Hammer",
+		"EquipmentBaseClass": "/Script/Engine.BlueprintGeneratedClass'/Game/BluePrint/Equipment/Dwarf/BP_Hammer_Dwarf.BP_Hammer_Dwarf_C'",
+		"WeaponType": "Hammer",
+		"Power": 20,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 16,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 50,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 3,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": 5,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Evasion",
+				"AddModifier": -10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "SturdyMace",
+		"ItemID": "SturdyMace",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Mace",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "DragonscaleMace",
+		"ItemID": "DragonscaleMace",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Mace",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "LundrakChainkaisersMace",
+		"ItemID": "LundrakChainkaisersMace",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Mace",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "DullDagger",
+		"ItemID": "DullDagger",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Dagger",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "BrassDagger",
+		"ItemID": "BrassDagger",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Dagger",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "Sharpness",
+		"ItemID": "Sharpness",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Dagger",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "DaggerOfHermes",
+		"ItemID": "DaggerOfHermes",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Dagger",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "HeavyAxe",
+		"ItemID": "HeavyAxe",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Axe",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "SteelAxe",
+		"ItemID": "SteelAxe",
+		"EquipmentBaseClass": "/Script/Engine.BlueprintGeneratedClass'/Game/BluePrint/Equipment/Dwarf/BP_Axe_Dwarf.BP_Axe_Dwarf_C'",
+		"WeaponType": "Axe",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 12,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 40,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2.4,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -5,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Evasion",
+				"AddModifier": -3,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "AxeOfBern",
+		"ItemID": "AxeOfBern",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Axe",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "AncientWarhammer",
+		"ItemID": "AncientWarhammer",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Hammer",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "BigMaul",
+		"ItemID": "BigMaul",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Hammer",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "GrimbarrStoneforgesWarhammer",
+		"ItemID": "GrimbarrStoneforgesWarhammer",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Hammer",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "IronHammerOfTheForge",
+		"ItemID": "IronHammerOfTheForge",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "SmithHammer",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "GrimbarrStoneforgesSmithingHammer",
+		"ItemID": "GrimbarrStoneforgesSmithingHammer",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "SmithHammer",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "WoodenPickaxe",
+		"ItemID": "WoodenPickaxe",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Pickaxe",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "StonePickaxe",
+		"ItemID": "StonePickaxe",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Pickaxe",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "IronPickaxe",
+		"ItemID": "IronPickaxe",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Pickaxe",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "SteelPickaxe",
+		"ItemID": "SteelPickaxe",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Pickaxe",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "StoneHammer",
+		"ItemID": "StoneHammer",
+		"EquipmentBaseClass": "None",
+		"WeaponType": "Hammer",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackRange",
+				"AddModifier": 150,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "AttackCooldown",
+				"AddModifier": 2,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Mining",
+				"AddModifier": 10,
+				"MulModifier": 0
+			}
+		]
+	},
+	{
+		"Name": "SteelShield",
+		"ItemID": "SteelShield",
+		"EquipmentBaseClass": "/Script/Engine.BlueprintGeneratedClass'/Game/BluePrint/Equipment/Dwarf/BP_Shield_Dwarf.BP_Shield_Dwarf_C'",
+		"WeaponType": "Shield",
+		"Power": 0,
+		"StatModifiers": [
+			{
+				"StatType": "AttackPower",
+				"AddModifier": 0,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "ArmorRating",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Evasion",
+				"AddModifier": 10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Accuracy",
+				"AddModifier": -10,
+				"MulModifier": 0
+			},
+			{
+				"StatType": "Speed",
+				"AddModifier": -10,
+				"MulModifier": 0
+			}
+		]
+	}
+]

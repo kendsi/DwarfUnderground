@@ -1,0 +1,13 @@
+Status,Status,Korean
+Idle,Idle,"""대기 중…"""
+Gathering,Gathering,"""자원 캐는 중…"""
+Working,Working,"""일 하는 중…"""
+InSquad,InSquad,"""전투 준비 중…"""
+Combat,Combat,"""전투 중"""
+SoilDigging,SoilDigging,"""흙 파는 중"""
+SoilCovering,SoilCovering,"""흙 덮는 중…"""
+EquipCrafting,EquipCrafting,"""장비 제작 중…"""
+Refining,Refining,"""자원 정제 중…"""
+Recruiting,Recruiting,"""모병 중…"""
+Farming,Farming,"""경작 중…"""
+Researching,Researching,"""연구 중…"""
